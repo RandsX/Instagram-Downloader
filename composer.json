@@ -1,0 +1,20 @@
+{
+	"name": "randsx/instagram-downloader",
+	"description": "PHP package download the image or video on Instagram",
+	"type": "library",
+	"license": "LGPL-3.0-only",
+	"authors": [{
+		"name": "RandsX",
+		"email": "andrevirdiaz@gmail.com",
+		"role": "Developer"
+	}],
+	"autoload": {
+		"psr-4": {
+			"RandsX\\InstagramDownloader\\": "src/"
+		}
+	},
+	"require": {
+		"php": ">=7.1",
+		"guzzlehttp/guzzle": "^7.0"
+	}
+}
