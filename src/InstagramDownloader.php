@@ -90,8 +90,6 @@ class InstagramDownloader
 	* @return array<string>
 	*/
 	private function ParseData(string $data): array {
-		$RawTags = [];
-		$this->MetaValues = [];
 		preg_match_all('/<meta[^>]+="([^"]*)"[^>]' . '+content="([^"]*)"[^>]+>/i', $data, $RawTags);
 
 		if (! empty($RawTags)) {
